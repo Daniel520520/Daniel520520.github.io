@@ -5,7 +5,7 @@
 
 //theme script here
 
-$(document).ready(function(){
+$(window).load(function(){
     "use strict"; // Start of use strict
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
