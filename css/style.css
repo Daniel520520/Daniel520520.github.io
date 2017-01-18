@@ -63,8 +63,7 @@ html,
 	  width: 100%;
 	}
 body {
-	/*font-family: 'Roboto', sans-serif;*/
-    font-family: 'cwTeXYen', sans-serif;
+	font-family: 'Roboto', 'cwTeXYen', sans-serif;
 }
 body {
 	color:#444444;
@@ -87,8 +86,7 @@ h3,
 h4,
 h5,
 h6 {
-  	font-family: 'Parisienne', cursive;
-    /*font-family: 'cwTeXYen', sans-serif;*/
+  	font-family: 'Parisienne', 'cwTeXYen', cursive;
 }
 p {
   	line-height: 1.5;
