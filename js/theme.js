@@ -90,7 +90,7 @@ $('.count').each(function () {
     * Set your date here  (YEAR, MONTH (0 for January/11 for December), DAY, HOUR, MINUTE, SECOND)
     * according to the GMT+0 Timezone
     **/
-    var launch = new Date(2017, 06, 20, 12, 00);
+    var launch = new Date(2017, 09, 21, 12, 00);
     /**
     * The script
     **/
