@@ -90,7 +90,7 @@ $('.count').each(function () {
     * Set your date here  (YEAR, MONTH (0 for January/11 for December), DAY, HOUR, MINUTE, SECOND)
     * according to the GMT+0 Timezone
     **/
-    var launch = new Date(2017, 09, 21, 12, 00);
+    var launch = new Date(2017, 09, 21, 4, 00);
     /**
     * The script
     **/
@@ -112,18 +112,18 @@ $('.count').each(function () {
         else{
             var s = -now.getTimezoneOffset()*60 + (launch.getTime() - now.getTime())/1000;
             var d = Math.floor(s/86400);
-            days.html('<h1>'+d+'</h1><p>天</p>');
+            days.html('<h1>'+d+'</h1><p class="fs-18">天</p>');
             s -= d*86400;
 
             var h = Math.floor(s/3600);
-            hours.html('<h1>'+h+'</h1><p>時</p>');
+            hours.html('<h1>'+h+'</h1><p class="fs-18">時</p>');
             s -= h*3600;
 
             var m = Math.floor(s/60);
-            minutes.html('<h1>'+m+'</h1><p>分</p>');
+            minutes.html('<h1>'+m+'</h1><p class="fs-18">分</p>');
 
             s = Math.floor(s-m*60);
-            seconds.html('<h1>'+s+'</h1><p>秒</p>');
+            seconds.html('<h1>'+s+'</h1><p class="fs-18">秒</p>');
             setTimeout(setDate, 1000);
         }
     }
